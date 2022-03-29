@@ -42,6 +42,7 @@ class TestSearch():
         TouchAction(self.driver).press(x=727, y=1338).move_to(x=730, y=716).release().perform()
 
         self.driver.find_element(MobileBy.XPATH,"//*[@text = '保存']").click()
+        print("这个是分支上的代码吧")
 
 
 if __name__ == "__main__":
